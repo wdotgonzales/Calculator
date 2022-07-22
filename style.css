@@ -1,0 +1,116 @@
+*,*::before,*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+body{
+    background-color: rgb(53, 53, 53);
+}
+
+.main-container{
+    width: 30%;
+    background-color: rgb(198, 194, 194);
+
+    margin: 0 auto;
+
+    margin-top: 3em;
+
+    /* padding: 2em; */
+
+    padding-left: 2.1em;
+    padding-block: 2em;
+    
+    border-radius: 15px;
+
+    max-width: 468px;
+    min-width: 468px;
+}
+
+.button-container{
+    display: grid;
+
+    grid-template-columns: repeat(4,100px);
+    
+}
+
+.clearButton ,  .deleteButton{
+    grid-column:span 2;
+}
+
+.previous-result {
+    
+    font-size: 18px;
+
+    background-color: grey;
+
+    padding-block: 1em;
+
+}
+
+.current-result{
+    background-color: grey;
+    font-size: 25px;
+
+    color: white;
+
+    padding-block: 0.7em;
+}
+
+.button{
+    padding-block: 2em;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.previous-result , .current-result{
+    /* padding-block: 1.5em; */
+    width: 400px;
+}
+
+.result-container{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.button-equal {
+    grid-column: span 2;
+}
+
+
+h3 {
+    text-align: center;
+    margin-top: 1em;
+
+    
+
+    background-color: white;
+
+    color: black;
+
+    width: 18%;
+
+    margin: 0 auto;
+    
+    margin-top: 1em;
+
+    border-radius: 13px;
+
+    max-width: 280px;
+    min-width: 280px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 1em;
+}
+
+
